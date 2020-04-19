@@ -1,0 +1,51 @@
+
+$greyDark: #040404;
+$greyLight: #131313;
+$greyLighter:#282828;
+$greyText: #b3b3b3;
+
+.App {
+  height: calc(100vh - 90px);
+  background: $greyLight;
+
+}
+
+.navBar {
+  width: 250px;
+  height: 100%;
+  background: $greyLight;
+  .logo {
+    padding: 1.5rem 1.5rem;
+    svg {
+      max-width: 130px;
+      path {
+        fill: white;
+      }
+
+        }
+      }
+      ul {
+        li {
+          color: $greyText;
+        }
+      }
+    }
+
+
+
+
+.outerWrap {
+  background: grey;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.musicControls{
+  background: $greyLighter;
+  text-align: center;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
